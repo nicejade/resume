@@ -16,9 +16,9 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "husky": "^1.1.1",
-    "lint-staged": "^7.3.0",
-    "onchange": "^5.0.2",
+    "husky": "^4.0.3",
+    "lint-staged": "^9.5.0",
+    "onchange": "^6.1.0",
     "prettier": "^1.14.3"
   },
   "husky": {
