@@ -1,0 +1,45 @@
+{
+  "name": "resume",
+  "author": "nicejade",
+  "version": "1.0.0",
+  "description": "🇨🇳 personal resume",
+  "scripts": {
+    "commit": "git add . && git commit -m '📝 update README.md' && git push",
+    "precommit-msg": "echo '🚧 Pre-commit checks...' && exit 0",
+    "prettier": "prettier --write '**/*.md'",
+    "prettier-watch": "onchange '**/*.md' -- prettier --write {{changed}}",
+    "clean-commit": "git checkout --orphan latest_branch && git add -A && git commit -am '🎉 recommit message' && git branch -D master && git branch -m master && git push -f origin master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicejade/resume.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "husky": "^1.1.1",
+    "lint-staged": "^7.3.0",
+    "onchange": "^5.0.2",
+    "prettier": "^1.14.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn run precommit-msg && lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/**.{js,json,pcss,md,vue}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "printWidth": 120,
+    "proseWrap": "never"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  }
+}
