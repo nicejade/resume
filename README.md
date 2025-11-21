@@ -5,9 +5,9 @@
 
 # **个人信息**
 
-- 基本信息：杨先生 | 男 | 陕西.商洛
-- 个人作品： [倾城之链 | NICE LINKS](https://nicelinks.site/)
-- 技术博客： [晚晴幽草轩](https://jeffjade.com) | [静轩之别苑](https://quickapp.lovejade.cn/)
+- 基本信息：杨先生 | 男
+- 个人作品： [生财有迹](https://fund.lovejade.cn)、[倾城之链](https://site.lovejade.cn)
+- 技术博客： [晚晴幽草轩](https://www.jeffjade.com) | [静轩之别苑](https://quickapp.lovejade.cn)
 - Github 地址： [https://github.com/nicejade/](https://github.com/nicejade/)
 - 期望职位：高级前端开发工程师
 - 期望城市：深圳 广州
@@ -19,13 +19,13 @@
 
 ### 高级前端开发工程师 (2018.07.26 － 至今)
 
-从事 [快应用](https://nicelinks.site/post/5b5fb5bc615bf842b609105f) 引擎开发相关工作。
+从事 [快应用](https://site.lovejade.cn/post/5b5fb5bc615bf842b609105f) 引擎开发相关工作。
 
 ## 大疆创新科技有限公司
 
 ### 前端开发工程师 (2016.07.20 － 2018.07.25)
 
-在大疆互联网事业部，从事 `Web` 前端开发相关工作，偶尔也用 `Node` 写下后台。参与过官网招聘、公司内部支持性服务、DJI 官网、大疆农服等多个项目；其中使用的技术栈主要有 `Es6`、`NodeJs`、`Vue`、`React`、`Electron` 等等；业余时间有开源些代码在 Github，也独立塑造些个人产品，如 [倾城之链](https://nicelinks.site) 等。这期间，积淀了大量快速构建可维护性的 Web 应用、以及新一代 Web 优化相关经验。
+在大疆互联网事业部，从事 `Web` 前端开发相关工作，偶尔也用 `Node` 写下后台。参与过官网招聘、公司内部支持性服务、DJI 官网、大疆农服等多个项目；其中使用的技术栈主要有 `Es6`、`NodeJs`、`Vue`、`React`、`Electron` 等等；业余时间有开源些代码在 Github，也独立塑造些个人产品，如 [倾城之链](https://site.lovejade.cn) 等。这期间，积淀了大量快速构建可维护性的 Web 应用、以及新一代 Web 优化相关经验。
 
 ## 博雅互动（2013.03 － 2016.07）
 
@@ -46,6 +46,6 @@
 - 编程语言：JavaScript、HTML5、CSS3、WebAssembly、Lua
 - 应用方向： Web、 [PWA](https://github.com/topics/pwa) 、 [微信小程序](https://github.com/topics/wechat-mini-program) 、 [快应用](https://github.com/topics/quickapp)
 - 前端框架：Vue、Svelte、React、Electron
-- 构建工具：Vite、Webpack、Rollup、pnpm
-- 后台开发：Node.js、Nginx、MongoDB、Redis、、Docker
-- 开发工具：Mac、VsCode、Chrome、Git
+- 构建工具：Vite、Webpack、Rollup、Gulp
+- 后台开发：Node.js、Nginx、MongoDB、Redis、Docker
+- 开发工具：Mac、VsCode、Cursor、Chrome、Git
